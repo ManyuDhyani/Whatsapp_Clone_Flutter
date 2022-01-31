@@ -25,13 +25,13 @@ List<ChatModel> user = [
   ),
   ChatModel(
     name: "Pooja Dhyani",
-    message: "kaha hai bhai",
+    message: "Where are you",
     time: "11:23",
     profilePic: "lib/models/images/avatar-3.jpg",
   ),
   ChatModel(
     name: "Pankaj Dhyani",
-    message: "kaha hai bhai",
+    message: "Happy Birthday 🎂",
     time: "12:23",
     profilePic: "lib/models/images/gallery-1.jpg",
   ),
