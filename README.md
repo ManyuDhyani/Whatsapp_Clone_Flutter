@@ -6,3 +6,6 @@ A new Flutter project.
 
 This project is a static whatsapp clone (UI).
 
+
+![](lib/models/images/WhatsAppChatWindow.png) 
+
