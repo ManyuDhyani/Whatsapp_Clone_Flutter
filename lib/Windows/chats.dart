@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone_flutter/Windows/chatDetail.dart';
 import 'package:whatsapp_clone_flutter/models/chatModels.dart';
 
 class Chats extends StatefulWidget {
@@ -41,6 +42,12 @@ class _ChatsState extends State<Chats> {
                       style:
                           const TextStyle(color: Colors.grey, fontSize: 14.0),
                     ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => chatDetailWindow()));
+                    },
                   )
                 ],
               )),
