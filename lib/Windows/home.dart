@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_clone_flutter/Windows/callDetail.dart';
 import 'package:whatsapp_clone_flutter/Windows/chats.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -62,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage>
           Text('Camera'),
           Chats(),
           Text('Status'),
-          Text('Calls'),
+          callDetailWindow(),
         ],
       ),
     );
