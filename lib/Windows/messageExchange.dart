@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bubble/bubble.dart';
+import 'package:flutter/scheduler.dart';
 
 class messageExchange extends StatefulWidget {
   messageExchange({Key? key}) : super(key: key);
@@ -23,8 +24,14 @@ class _messageExchangeState extends State<messageExchange> {
     color: const Color.fromRGBO(225, 255, 199, 1),
   );
 
+  ScrollController _chatScrollController = ScrollController();
+
   @override
   Widget build(BuildContext context) {
+    SchedulerBinding.instance?.addPostFrameCallback((_) {
+      _chatScrollController
+          .jumpTo(_chatScrollController.position.maxScrollExtent);
+    });
     return ListView(
       children: [
         Bubble(
