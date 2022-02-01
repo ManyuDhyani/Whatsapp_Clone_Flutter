@@ -48,7 +48,7 @@ class _chatDetailWindowState extends State<chatDetailWindow> {
           Expanded(child: messageExchange()),
           Container(
             alignment: Alignment.bottomCenter,
-            padding: EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(16.0),
             child: Row(
               children: [
                 Flexible(
