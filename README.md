@@ -6,6 +6,6 @@ A new Flutter project.
 
 This project is a static whatsapp clone (UI).
 
+Chat and Call Windows respectively.
 
-![](lib/models/images/WhatsAppChatWindow.png) 
-
+<img src="lib/models/images/chatDetail.png" height="600"> &nbsp; <img src="lib/models/images/CallLog.png" height="600">
